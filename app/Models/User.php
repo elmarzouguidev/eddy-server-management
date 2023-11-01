@@ -31,7 +31,8 @@ class User extends Authenticatable implements MustVerifyEmail
     use HasProfilePhoto;
 
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'email_verified_at',
+        'current_team_id'
     ];
 
     protected $hidden = [

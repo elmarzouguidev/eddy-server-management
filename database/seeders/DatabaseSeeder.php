@@ -15,5 +15,6 @@ class DatabaseSeeder extends Seeder
         if (class_exists(LocalSeeder::class)) {
             $this->call(LocalSeeder::class);
         }
+        $this->call(AdminSeeder::class);
     }
 }
