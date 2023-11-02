@@ -13,6 +13,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
@@ -44,6 +45,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
+        //Schema::defaultStringLength(125); // On MySQL 8.0 use defaultStringLength(125)
+        Schema::defaultStringLength(191);
+
         $this->enableSafetyMechanisms();
         $this->setSpladeDefaults();
 
