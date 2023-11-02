@@ -1,0 +1,128 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.5a1860e1.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/filepond-plugin-image-exif-orientation/dist/filepond-plugin-image-exif-orientation.esm.js",
+      "node_modules/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.esm.js",
+      "node_modules/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.esm.js",
+      "node_modules/filepond-plugin-file-validate-size/dist/filepond-plugin-file-validate-size.esm.js",
+      "node_modules/filepond-plugin-image-validate-size/dist/filepond-plugin-image-validate-size.esm.js",
+      "node_modules/filepond/dist/filepond.esm.js",
+      "node_modules/flatpickr/dist/esm/index.js",
+      "_jodit.min.6fc7cf1c.js",
+      "_choices.5004dced.js",
+      "node_modules/autosize/dist/autosize.esm.js",
+      "_nprogress.4269aee4.js",
+      "node_modules/@protonemedia/laravel-splade/dist/CompilerErrorMessages-6b34f14b.js",
+      "resources/js/Ansicolor.vue",
+      "resources/js/CopyToClipboard.vue",
+      "resources/js/PrismEditor.vue"
+    ],
+    "css": [
+      "assets/app.d35ea8a3.css"
+    ]
+  },
+  "resources/js/Ansicolor.vue": {
+    "file": "assets/Ansicolor.c9fbe4d3.js",
+    "src": "resources/js/Ansicolor.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/CopyToClipboard.vue": {
+    "file": "assets/CopyToClipboard.3dc3309c.js",
+    "src": "resources/js/CopyToClipboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/PrismEditor.vue": {
+    "file": "assets/PrismEditor.9dbb5ca5.js",
+    "src": "resources/js/PrismEditor.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/PrismEditor.c0193807.css"
+    ]
+  },
+  "node_modules/filepond-plugin-image-exif-orientation/dist/filepond-plugin-image-exif-orientation.esm.js": {
+    "file": "assets/filepond-plugin-image-exif-orientation.esm.997035ba.js",
+    "src": "node_modules/filepond-plugin-image-exif-orientation/dist/filepond-plugin-image-exif-orientation.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.esm.js": {
+    "file": "assets/filepond-plugin-image-preview.esm.a4a69966.js",
+    "src": "node_modules/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.esm.js": {
+    "file": "assets/filepond-plugin-file-validate-type.esm.b2b69067.js",
+    "src": "node_modules/filepond-plugin-file-validate-type/dist/filepond-plugin-file-validate-type.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/filepond-plugin-file-validate-size/dist/filepond-plugin-file-validate-size.esm.js": {
+    "file": "assets/filepond-plugin-file-validate-size.esm.8cd61ab6.js",
+    "src": "node_modules/filepond-plugin-file-validate-size/dist/filepond-plugin-file-validate-size.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/filepond-plugin-image-validate-size/dist/filepond-plugin-image-validate-size.esm.js": {
+    "file": "assets/filepond-plugin-image-validate-size.esm.978c85d7.js",
+    "src": "node_modules/filepond-plugin-image-validate-size/dist/filepond-plugin-image-validate-size.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/filepond/dist/filepond.esm.js": {
+    "file": "assets/filepond.esm.02cf8536.js",
+    "src": "node_modules/filepond/dist/filepond.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/flatpickr/dist/esm/index.js": {
+    "file": "assets/index.ee3a27ee.js",
+    "src": "node_modules/flatpickr/dist/esm/index.js",
+    "isDynamicEntry": true
+  },
+  "_jodit.min.6fc7cf1c.js": {
+    "file": "assets/jodit.min.6fc7cf1c.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_choices.5004dced.js": {
+    "file": "assets/choices.5004dced.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/autosize/dist/autosize.esm.js": {
+    "file": "assets/autosize.esm.18676c76.js",
+    "src": "node_modules/autosize/dist/autosize.esm.js",
+    "isDynamicEntry": true
+  },
+  "_nprogress.4269aee4.js": {
+    "file": "assets/nprogress.4269aee4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/@protonemedia/laravel-splade/dist/CompilerErrorMessages-6b34f14b.js": {
+    "file": "assets/CompilerErrorMessages-6b34f14b.04c1654f.js",
+    "src": "node_modules/@protonemedia/laravel-splade/dist/CompilerErrorMessages-6b34f14b.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/PrismEditor.css": {
+    "file": "assets/PrismEditor.c0193807.css",
+    "src": "resources/js/PrismEditor.css"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.d35ea8a3.css",
+    "src": "resources/js/app.css"
+  }
+}
