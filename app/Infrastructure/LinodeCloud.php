@@ -54,14 +54,12 @@ class LinodeCloud implements ServerProvider, HasCredentials
             $json = $response->json();
 
             $data = $data->merge($json['data'] ?? []);
-
-            $nextPage = $json['page'] ?? null;
+            $nextPage = $json['results'] ?? null;
 
             if ($nextPage) {
                 $query['page'] = $nextPage;
             }
-        } while ($nextPage);
-
+        } while ($json['data']);
 
         return $data;
     }
@@ -71,6 +69,7 @@ class LinodeCloud implements ServerProvider, HasCredentials
      */
     public function canConnect(): bool
     {
+
         try {
             return $this->findAvailableServerRegions()->isNotEmpty();
         } catch (\Exception) {
