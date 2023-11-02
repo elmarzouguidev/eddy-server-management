@@ -33,6 +33,7 @@ class ProviderFactory
             Provider::DigitalOcean => new DigitalOcean($credentials->credentials['digital_ocean_token']),
             Provider::HetznerCloud => new HetznerCloud($credentials->credentials['hetzner_cloud_token']),
             Provider::Vagrant => new Vagrant($this->processRunner, config('services.vagrant.path')),
+            Provider::Linode => new LinodeCloud($credentials->credentials['linode_cloud_token']),
 
             default => throw new Exception('Invalid provider')
         };

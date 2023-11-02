@@ -9,6 +9,7 @@ use App\Models\Team;
 use App\Provider;
 use App\Rules\DigitalOceanToken;
 use App\Rules\HetznerCloudToken;
+use App\Rules\LinodeCloudToken;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use ProtoneMedia\Splade\Facades\Toast;
@@ -74,6 +75,8 @@ class CredentialsController extends Controller
             'credentials' => ['array'],
             'credentials.digital_ocean_token' => [Enum::requiredIf(Provider::DigitalOcean), 'nullable', 'string', new DigitalOceanToken],
             'credentials.hetzner_cloud_token' => [Enum::requiredIf(Provider::HetznerCloud), 'nullable', 'string', new HetznerCloudToken],
+            'credentials.linode_cloud_token' => [Enum::requiredIf(Provider::Linode), 'nullable', 'string', new LinodeCloudToken],
+
         ]);
 
         $credentials = $this->user()->credentials()->make($data);

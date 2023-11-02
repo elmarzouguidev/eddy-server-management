@@ -7,6 +7,7 @@ enum Provider: string
     case DigitalOcean = 'digital_ocean';
     case Github = 'github';
     case HetznerCloud = 'hetzner_cloud';
+    case Linode = 'linode';
     case Vagrant = 'vagrant';
     case CustomServer = 'custom_server';
 
@@ -16,6 +17,7 @@ enum Provider: string
             self::DigitalOcean => 'DigitalOcean',
             self::Github => 'Github',
             self::HetznerCloud => 'Hetzner Cloud',
+            self::Linode => 'Linode Akamai',
             self::Vagrant => 'Vagrant',
             self::CustomServer => 'Custom',
         };
@@ -29,6 +31,7 @@ enum Provider: string
         return [
             self::DigitalOcean,
             self::HetznerCloud,
+            self::Linode,
         ];
     }
 
@@ -37,6 +40,7 @@ enum Provider: string
         $providers = [
             self::DigitalOcean,
             self::HetznerCloud,
+            self::Linode,
             self::CustomServer,
         ];
 

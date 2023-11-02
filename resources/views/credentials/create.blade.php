@@ -26,6 +26,9 @@
 
                 <x-splade-textarea autosize v-show="form.provider == 'hetzner_cloud'" name="credentials.hetzner_cloud_token" :label="__('API Token')" />
 
+                <x-splade-textarea autosize v-show="form.provider == 'linode'" name="credentials.linode_cloud_token" :label="__('API Token')"  />
+
+
                 <p v-if="form.provider == 'github'">
                     {{ __('Connecting to Github will allow you to quickly select repositories and branches when deploying new sites.') }}
                 </p>
@@ -37,7 +40,9 @@
                 <p v-else-if="form.provider == 'hetzner_cloud'">
                     {!! __('You may generate an API token in the Hetzner Cloud Console. Go to Security on the left menu bar, and then go to the Api Tokens tab. Make sure to select the Read & Write permission. <a class="underline" target="_blank" href=":link">Learn more</a>.', ['link' => 'https://docs.hetzner.com/cloud/api/getting-started/generating-api-token/']) !!}
                 </p>
-
+                <p v-else-if="form.provider == 'linode'">
+                    {!! __('You may generate an API token in the Linode Cloud Console. Go to Security on the left menu bar, and then go to the Api Tokens tab. Make sure to select the Read & Write permission. <a class="underline" target="_blank" href=":link">Learn more</a>.', ['link' => 'https://www.linode.com/docs/api/#personal-access-token']) !!}
+                </p>
                 <div>
                     <x-splade-submit v-show="form.provider != 'github'" />
 
