@@ -71,6 +71,7 @@
                 @endphp
 
                 @foreach (\App\Server\ProvisionStep::forFreshServer() as $step)
+        
                     @php
                         $completed = in_array($step->value, $completedSteps);
                         $current = ! $completed && $lastStepWasCompleted;

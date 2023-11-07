@@ -143,6 +143,7 @@ class ServerController extends Controller
      */
     public function show(Server $server)
     {
+        
         if ($server->status === ServerStatus::Deleting) {
             Toast::warning(__('Your server is being deleted.'));
 
@@ -150,6 +151,7 @@ class ServerController extends Controller
         }
 
         if (! $server->provisioned_at) {
+            
             return view('servers.provisioning', [
                 'server' => $server,
             ]);
