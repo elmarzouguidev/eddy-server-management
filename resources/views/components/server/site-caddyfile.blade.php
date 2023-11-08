@@ -21,7 +21,7 @@
         -Server
         X-Content-Type-Options nosniff
         X-Frame-Options SAMEORIGIN
-        X-Powered-By "{{ config('app.name') }}"
+        X-Powered-By "{{ config('app.name') }} : Elmarzougui Abdelghafour"
         X-XSS-Protection 1; mode=block
     }
 
