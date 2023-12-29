@@ -37,7 +37,7 @@
         "laravel/pint": "^1.6",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-        "nunomaduro/larastan": "^2.0",
+        "larastan/larastan": "^2.0",
         "phpunit/phpunit": "^10.0",
         "protonemedia/laravel-dusk-fakes": "^1.4",
         "spatie/invade": "^1.1",

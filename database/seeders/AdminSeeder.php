@@ -19,7 +19,7 @@ class AdminSeeder extends Seeder
             'name' => 'Elmarzougui Abdelghafour',
             'email' => 'abdelgha4or@gmail.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('123456789@'),
         ];
 
         $user = User::create($admin);
